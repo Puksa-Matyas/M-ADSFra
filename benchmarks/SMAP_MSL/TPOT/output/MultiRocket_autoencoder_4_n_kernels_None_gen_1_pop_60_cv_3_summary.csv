@@ -1,0 +1,2 @@
+File,Accuracy,BalancedAccuracy,Duration
+MultiRocket_autoencoder_4_labeled.csv,0.6363636363636364,0.373015873015873,26.652220726013184
