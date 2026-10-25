@@ -6,11 +6,11 @@ sns.set_theme(style="whitegrid")
 
 # Adatok
 categories = [
-    'Random baseline\n(Top-3 accuracy)',
-    'TPOT with MultiRocket\nfingerprints',
-    'TPOT with Signature\nfingerprints'
+    'Perfect-classifier baseline',
+    'Average F1-score\n(TPOT with MultiRocket)',
+    'Average F1-score\n(TPOT with GSM)'
 ]
-values = [0.6, 0.76, 0.657]
+values = [0.89, 0.737, 0.737]
 colors = ['#e1d5e7', '#2ECC71', "#E64922"]
 
 # Diagram mérete és létrehozása
@@ -36,7 +36,7 @@ for bar in bars:
 
 # Címek és tengelyek beállítása
 ax.set_ylabel('Top-3 accuracy', fontsize=12, labelpad=10, color='#2C3E50')
-ax.set_ylim(0.5,0.9)
+ax.set_ylim(0.6,0.9)
 
 # Vonalak és keretek finomhangolása
 ax.spines['top'].set_visible(False)

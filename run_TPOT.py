@@ -29,7 +29,7 @@ SPLITS = ['SMD', 'SMAP', 'MSL', 'SMAP_MSL']
 # True_Detector/Predicted_Detector nevek rossz detektorra mutatnak.
 ALGORITHMS = ['RZS','SPE','HST','TRAKR','TranAD']
 DEFAULT_SEED = 50
-DEFAULT_TEST_SIZE = 0.40
+DEFAULT_TEST_SIZE = 0.20
 DEFAULT_RESULTS_CSV = 'THESIS_DATA.csv'
 
 TOPK_COL_PATTERN = re.compile(r'^Top(\d+)Targets$')
